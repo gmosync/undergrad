@@ -1,4 +1,4 @@
-# Movie Sentiment Analyzer
+# Undergrad
 
 This project demonstrates a full sentiment analysis pipeline on a dataset of movie reviews.  
 We apply natural language processing (NLP) techniques to classify reviews as positive or negative.
