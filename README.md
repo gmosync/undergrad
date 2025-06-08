@@ -1,10 +1,10 @@
 # Undergradate Coursework
 
-This repository contains selected projects from my undergraduate studies in **Business Analytics and Technology**, with a minor in **Data Science**. 
+This repository contains selected projects from my undergraduate studies in Business Analytics and Data Science. 
 
 Each project is summarized in the [`project-summaries/`](./project-summaries/) folder. Only one of these projects, the [`sentiment-analysis/`](./sentiment-analysis/), uses publicly available data and includes full code, notebooks, and outputs.
 
-The remaining projects were completed in partnership with Trinity University and a major tech company, and involve confidential datasets. While the code and data cannot be shared, I’ve provided detailed markdown summaries to explain each project’s scope, tools, and impact.
+The remaining projects were completed in partnership with my university and a major tech company, and involve confidential datasets. While the code and data cannot be shared, I’ve provided detailed markdown summaries to explain each project’s scope, tools, and impact.
 
 ---
 
