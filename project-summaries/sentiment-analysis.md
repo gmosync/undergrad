@@ -1,3 +1,5 @@
+# Preface: this project summary and the code involved are still a work in progress. The initial project was to explore movie review datasets using classic lexicon-based sentiment analysis and newer, transformer-based NLP models. The work and conclusions are briefly summarized below. The purpose of the refactoring and reorganizing the project codebase is for further exploration of the differences in applied use-cases for lexicon library vs transformer based analysis of short text samples like movie reviews. I will be further extending the project in my free time going forward as I explore NLP use cases for industry. 
+
 Sentiment Analysis & Movie-Success Modeling  
 Rotten Tomatoes + TMDb, 106 k reviews, 16 variables
 
@@ -12,12 +14,6 @@ The notebooks are broken up so a reader can jump straight to the part that matte
 01_eda.ipynb exploratory stats & plots
 02_feature_eng.ipynb cleaning + engineered columns
 03_modeling.ipynb baseline → tuned models, error analysis
-Phase 2 FINAL.ipynb narrative EDA w/ inline commentary
-Phase 4.ipynb model-choice discussion, next steps
-
-csharp
-Copy
-Edit
 
 ### Data sources
 * Rotten Tomatoes critics’ reviews (ratings, text, dates)  
