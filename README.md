@@ -6,7 +6,10 @@ Each project is summarized in the [`project-summaries/`](./project-summaries/) f
 
 The remaining projects were completed in partnership with my university and a major tech company, and involve confidential datasets. While the code and data cannot be shared, I’ve provided detailed markdown summaries to explain each project, also in the [`project-summaries/`](./project-summaries/) folder.
 
-Below are quick summaries of each project:
+Below are quick summaries of each project.
+
+---
+## Project Summaries
 
 [`predict-retention/`](./predict-retention/)
 Partnering with the Office of Institutional Research & Effectiveness at my university, I linked first-year NSSE responses to four-year retention data with logistic regression on a cleaned sample of 2017 entrants. First-year GPA and the “Would you attend again?” survey item overshadowed all other factors, and reliance on informal advisors predicted non-retention. Findings helped justify hiring full-time professional advisors for first-year and undeclared students. Data and code remain private under confidentiality agreement.
@@ -22,7 +25,7 @@ I combined Rotten Tomatoes reviews with TMDb metadata, cleaned 100,000 critic re
 
 ---
 
-## Project Structure
+## Repo Structure
 
 ```bash
 undergrad/
