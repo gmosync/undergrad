@@ -64,6 +64,7 @@ Example:
 
 # Flair
 [POSITIVE (confidence: 0.97)]
+```
 Modeling snapshot
 Baselines: ordinary least squares for revenue, logistic + k-NN for vote_average buckets.
 
@@ -72,7 +73,7 @@ Feature set: numeric skims (log-scaled where needed), one-hot genres, month, VAD
 Early result: adding VADER lifts revenue-RMSE by ~4 %, vote-F1 by ~6 % versus numeric-only baselines. Full discussion and error dives live in Phase 4.ipynb.
 
 Re-running the pipeline
-bash
+```bash
 Copy
 Edit
 # create and activate env
@@ -88,7 +89,7 @@ nltk.download('vader_lexicon')     # ~1 MB
 PY
 To pre-fetch the DistilBERT weights manually, drop the file into
 ~/.flair/models/en-sentiment/ as noted in the notebooks.
-
+```
 Takeaways
 Speed vs nuance – VADER is fine for dashboards; transformers win when sarcasm or idioms matter.
 
