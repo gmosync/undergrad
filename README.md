@@ -6,8 +6,6 @@ Each project is summarized in the [`project-summaries/`](./project-summaries/) f
 
 The remaining projects were completed in partnership with my university and a major tech company, and involve confidential datasets. While the code and data cannot be shared, I’ve provided detailed markdown summaries to explain each project, also in the [`project-summaries/`](./project-summaries/) folder.
 
-Below are quick summaries of each project.
-
 ---
 ## Project Summaries
 
