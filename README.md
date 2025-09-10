@@ -28,7 +28,7 @@ I combined Rotten Tomatoes reviews with TMDb metadata, cleaned 100,000 critic re
 ```bash
 undergrad/
 ├── .venv/ # local virtual environment (created using uv)
-├── notebooks/ # Jupyter notebooks file for sentiment analysis project
+├── notebooks/ # files for sentiment analysis project
 ├── src/ # Python modules and reusable code
 ├── data/ # local data files (ignored - check DATASETS.md for download)
 ├── artifacts/ # model outputs, plots
@@ -54,27 +54,4 @@ uv venv
 
 # 3. Install the exact pinned dependencies
 uv pip install -r requirements.txt
-
-# 4. Launch Jupyter
-jupyter notebook
-```
-### Alternatively, using `venv` + `pip`
-
-```bash
-# 1  Clone the repo
-git clone git@github.com:gmosync/undergrad.git
-cd undergrad
-
-# 2  Create & activate a virtual environment (Python ≥ 3.10)
-python3 -m venv .venv
-# macOS / Linux
-source .venv/bin/activate
-# Windows (PowerShell)
-# .venv\Scripts\Activate.ps1
-
-# 3  Install the exact pinned dependencies
-pip install -r requirements.txt
-
-# 4  Launch Jupyter
-jupyter notebook
 ```
