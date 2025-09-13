@@ -42,7 +42,7 @@ undergrad/
 > Use a project-local virtual environment so this repo’s
 > dependencies stay isolated from any other Python projects on your machine.
 
-### Using `uv`
+### Using `uv` because why use anything else?
 
 ```bash
 # 1. Clone the repo
@@ -54,4 +54,7 @@ uv venv
 
 # 3. Install the exact pinned dependencies
 uv pip install -r requirements.txt
+
+# Tip: use this command to activate virtual environment
+source .venv/bin/activate
 ```
