@@ -20,27 +20,3 @@ I modeled in-transit lead times for a global tech OEM using six months of order 
 
 [`sentiment-analysis.md/`](./project-summaries/sentiment-analysis.md/)
 I combined Rotten Tomatoes reviews with TMDb metadata, cleaned 100,000 critic reviews, and compared lexicon-based VADER and transformer-based DistilBERT sentiment scorers. VADER aligned best with numeric ratings and, alongside budget and vote count, drove both revenue and rating models. The repo is public because the data is open, I've uploaded refactored code (work-in-progress) in the [`notebooks/`](./notebooks/) folder, and am expanding it with faster GPU pipelines and additional NLP experiments.
-
----
-
-## Reproducing the environment
-
-> Use a project-local virtual environment so this repo’s
-> dependencies stay isolated from any other Python projects on your machine.
-
-### Using `uv` because why use anything else?
-
-```bash
-# 1. Clone the repo
-git clone git@github.com:gmosync/undergrad.git
-cd undergrad
-
-# 2. Create a virtual environment (uv auto-creates .venv if not present)
-uv venv
-
-# 3. Install the exact pinned dependencies
-uv pip install -r requirements.txt
-
-# Tip: use this command to activate virtual environment
-source .venv/bin/activate
-```
