@@ -23,20 +23,6 @@ I combined Rotten Tomatoes reviews with TMDb metadata, cleaned 100,000 critic re
 
 ---
 
-## Repo Structure
-
-```bash
-undergrad/
-├── .venv/ # local virtual environment (created using uv)
-├── notebooks/ # files for sentiment analysis project
-├── src/ # Python modules and reusable code
-├── data/ # local data files (ignored - check DATASETS.md for download)
-├── artifacts/ # model outputs, plots
-├── requirements.in # top-level dependencies
-├── requirements.txt # fully pinned lock file (auto-generated)
-└── .gitignore # files excluded
-```
-
 ## Reproducing the environment
 
 > Use a project-local virtual environment so this repo’s
